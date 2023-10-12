@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RickAndMortyController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,5 +31,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::resource('posts', PostController::class);
+
+Route::resource('rick-and-morty', RickAndMortyController::class);
 
 require __DIR__ . '/auth.php';
