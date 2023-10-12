@@ -28,7 +28,7 @@
             @endif
             @endauth
             <a href="{{ url('/posts') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">CRUD</a>
-            <a href="{{ url('/rick-and-morty') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">RICK AND MORTY</a>
+            <a href="{{ url('/rick-and-morty') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">API RICK AND MORTY</a>
         </div>
         @endif
 
