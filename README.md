@@ -5,7 +5,7 @@
 -   [Laravel](https://laravel.com/docs)
 -   [Composer](https://getcomposer.org/)
 
-## Deploy
+## Setup
 
 -   `cp .env.example .env`
 -   `composer install`
